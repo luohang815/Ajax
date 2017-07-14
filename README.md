@@ -71,5 +71,9 @@ function ajaxFunction()
 	
 	
 	//Ajax 解决跨域的解决方案
-	
+	1.服务器端使用代理
+	2.JSONP (仅支持GET方式)
+	3.XHR2(IE10以下不支持) 服务端添加
+	  header('Access-Control-Allow-Origin:*');
+	  header('Access-Control-Allow-Methods:POST,GET');
 	
