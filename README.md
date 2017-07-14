@@ -68,3 +68,8 @@ function ajaxFunction()
 			}
 		}
 	}
+	
+	
+	//Ajax 解决跨域的解决方案
+	
+	
